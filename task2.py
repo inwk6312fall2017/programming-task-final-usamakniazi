@@ -22,15 +22,15 @@ print(all_days)
 maxT=0
     for day in all_days:
      if int(day[2])>int(maxT):
-maxT=day[2]
-that_day = day[1]
+     maxT=day[2]
+     that_day = day[1]
 print("The
 hottest day is on "+that_day +' and the temparature is '+
 maxT)
 least=10000#Some
 random high number just for comparing sake
       for day in all_days:
-     if int(day[3])<int(least):
+       if int(day[3])<int(least):
      least=day[3]
      that_day=day[1]
 print("The
